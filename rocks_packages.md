@@ -23,3 +23,22 @@
 | asahi-installer-0.5pre9-1.fc37                     | 2022/11/16 16:09 | complete | 版本领先 |
 
 0307更新：rocks 开始编译 fc38，2023-02-01至03-06 编译13161个，complete 12398个。
+
+| package              | upstream必要性 | source                                                       |
+| -------------------- | -------------- | ------------------------------------------------------------ |
+| kernel               | Y              | fedora.riscv.rocks:3000/rpms/kernel.git#b6c02a9d00acdd32cacc0703f5f352b50789eda7 |
+| libffi               | N              |                                                              |
+| execstack            | Y              | fedora.riscv.rocks:3000/rpms/execstack.git#163c366e3f8b77121b819106e36e4d4a2bb4fe8a |
+| llhttp               | N              |                                                              |
+| libffi3.1            | Y              | fedora.riscv.rocks:3000/rpms/libffi3.1.git#510c20fc9b5611721842794a9856e8fa2712f204 |
+| ghc                  | Y              | fedora.riscv.rocks:3000/rpms/ghc.git#a3fdd108ec88aa2fe78bc628364612eb6684df10 |
+| ghc-srpm-macros      | N              |                                                              |
+| efi-rpm-macros       | Y              | fedora.riscv.rocks:3000/rpms/efi-rpm-macros.git#4b02670d3404ce58d5999e1e6cdc4bb396c0077d |
+| kernel-srpm-macros   | N              |                                                              |
+| go-rpm-macros        | N              |                                                              |
+| openblas-srpm-macros | N              |                                                              |
+| rust                 | Y              | fedora.riscv.rocks:3000/rpms/rust.git#ceca7985d2d0b68a51d894e04166328e329bc4fa |
+| stb                  | N              |                                                              |
+| hdf                  | Y              | fedora.riscv.rocks:3000/rpms/hdf.git#c5c5cb0ad0af7bb8807da82ecfba28fbf256a8ed |
+| qt5-qtwebkit         | Y              | fedora.riscv.rocks:3000/rpms/qt5-qtwebkit.git#5584955288f7442e1184fd1d60e6a37a55bbab7b |
+
